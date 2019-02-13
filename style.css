@@ -23,13 +23,3 @@ body {
     margin-top: -19px;
     padding-top: 200px;
 }
-
-.container-fluid {
-    color: rgb(136, 103, 41);
-    background-color: rgb(213, 207, 207);
-}
-
-.main-column {
-    border: solid 1px red;
-}
-
