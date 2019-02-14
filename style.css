@@ -1,25 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Miss+Fajardose|Roboto:400,700');
+
+
 body {
     background-color: whitesmoke;
-    padding-top: 70px;
     margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+.container-fluid {
+    margin: 0px;
+    padding: 0px;
 }
 
 #logo {
     background-color: steelblue;
     color: whitesmoke;
-    margin: 10px;
+    margin-left: 10px;
+    margin-top: -5px;
+    padding-right: 30px;
+    padding-top: 20px;
+    font-family: 'Miss Fajardose', cursive;
+    font-size: 5rem;
 }
 
 .mylinks {
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 #hero {
-    height: 600px;
+    height: 350px;
     max-width: 100vw;
     background-color: lightskyblue;
     text-align: center;
     color: rgb(136, 103, 41);
     margin-top: -19px;
-    padding-top: 200px;
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#icon1, #icon2, #icon3 {
+    border: solid 2px  rgb(136, 103, 41);
+    border-radius: 28px;
+    padding: 20px;
+    
+}
+
+.jumbotron-fluid {
+    background:lightskyblue;
+    color:rgb(136, 103, 41);
+    margin-top: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 0px !important;
+}
+
+.jumbotron-sm { 
+    padding-top: 24px;
+    padding-bottom: 24px; 
+}
+
+.jumbotron small {
+    color: #FFF;
+}
+ 
+.h1 small {
+    font-size: 24px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
 }

@@ -10,11 +10,11 @@
 <title>Title</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand navbar-light bg-light navbar-fixed-top">
+    <nav class="navbar navbar-expand navbar-light bg-light">
         <div class="container-fluid">
             
             <div class="navbar-header">
-                <a id="logo" class="navbar-brand" href="#">H|R</a>
+                <a id="logo" class="navbar-brand" href="#">R</a>
             </div>
             
             <ul class="nav navbar-nav navbar-right mylinks">
@@ -28,19 +28,119 @@
 
     <div id="hero" class="jumbotron jumbotron-fluid">
         <h1 class="display-4">Harold Roberson</h1>
-        <p class="lead">Web Developer | Photographer | Videographer </p>
+        <p class="lead">Web Developer | Photographer | Licensed Drone Pilot </p>
     </div>
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-8 main-column">
-                <h1>Harold Roberson</h1>
+            <div class="col-md-4">
+                <div class="card">
+                    <i id="icon1" class="fa fa-code" aria-hidden="true"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Web Developer</h5>
+                        <p class="card-text">I'm a front-end web developer that leverages HTML, CSS, JavaScript, jQuery, Node.js, MongoDB, Mongoose, Angular and much more; using the latest technologies to create engaging websites.</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4 side-column">
-                <h1>Harold Roberson</h1>
+            <div class="col-md-4">
+                <div class="card">
+                    <i id="icon2" class="fa fa-camera" aria-hidden="true"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Photography</h5>
+                        <p class="card-text">I specialize in real estate photography and use HDR photo composites to bring your property to life. I deliver professional photos that will make your listings stand out from the rest.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+            <div class="card">
+                <i id="icon3" class="fa fa-video-camera" aria-hidden="true"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Drone Pilot</h5>
+                    <p class="card-text">As an FAA licensed drone pilot, I provide aerial images and video with stunning results. Flights are safe, unobtrusive, and most importantly, fully insured. See the power of a birds-eye-view</p>
+                </div>
             </div>
         </div>
     </div>
+
+    <div class="jumbotron jumbotron-fluid">
+        <h1 class="h1">Contact Me </h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="well well-sm">
+                    <form>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="name">
+                                    Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">
+                                    Email Address</label>
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                    </span>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">
+                                    Subject</label>
+                                <select id="subject" name="subject" class="form-control" required="required">
+                                    <option value="na" selected="">Choose One:</option>
+                                    <option value="service">Website Service</option>
+                                    <option value="suggestions">Photography</option>
+                                    <option value="product">Drone Service</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="name">
+                                    Message</label>
+                                <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                    placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                                Send Message</button>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <form>
+                <legend><span class="glyphicon glyphicon-globe"></span> My office</legend>
+                <address>
+                    <strong>Harold Roberson</strong><br>
+                    Baton Rouge, LA 70816<br>
+                    <abbr title="Phone">
+                        P:</abbr>
+                    (225) XXX-XXXX
+                </address>
+                <address>
+                    <strong>Email Address</strong><br>
+                    <a href="mailto:#">steadfastdrone@gmail.com</a>
+                </address>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="row">
+            <div class="col-12">
+                <p>&COPY; 2019 designed by Steadfast Drone, LLC</p>
+            </div>
+        </div>
+    </div>
+    
+
+
 
 
 
